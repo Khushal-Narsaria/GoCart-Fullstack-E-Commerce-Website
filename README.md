@@ -12,22 +12,6 @@
 </div>
 
 ---
-<div align="center">
-  <h1>
-    <img src="https://gocart-gs.vercel.app/favicon.ico" width="20" height="20" alt="GoCart Favicon">
-    GoCart
-  </h1>
-  <p>
-    A full-stack e-commerce platform built with Next.js, Prisma, and modern web technologies.
-  </p>
-  <p>
-    <img src="https://img.shields.io/github/license/Khushal-Narsaria/gocart-nextjs-ecommerce?style=for-the-badge" alt="License">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome">
-    <img src="https://img.shields.io/github/issues/Khushal-Narsaria/gocart-nextjs-ecommerce?style=for-the-badge" alt="GitHub issues">
-  </p>
-</div>
-
----
 
 ## 📖 Table of Contents
 
