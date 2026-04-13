@@ -12,74 +12,113 @@
 </div>
 
 ---
-
-## 📖 Table of Contents
-
-- [✨ Features](#-features)
-- [🛠️ Tech Stack](#-tech-stack)
-- [🚀 Getting Started](#-getting-started)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
+<div align="center">
+  <h1>
+    <img src="https://gocart-gs.vercel.app/favicon.ico" width="20" height="20" alt="GoCart Favicon">
+    GoCart
+  </h1>
+  <p>
+    A full-stack e-commerce platform built with Next.js, Prisma, and modern web technologies.
+  </p>
+  <p>
+    <img src="https://img.shields.io/github/license/Khushal-Narsaria/gocart-nextjs-ecommerce?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome">
+    <img src="https://img.shields.io/github/issues/Khushal-Narsaria/gocart-nextjs-ecommerce?style=for-the-badge" alt="GitHub issues">
+  </p>
+</div>
 
 ---
 
-## Features
+## 📖 Table of Contents
 
-- **Multi-Vendor Architecture:** Allows multiple vendors to register, manage their own products, and sell on a single platform.
-- **Customer-Facing Storefront:** A beautiful and responsive user interface for customers to browse and purchase products.
-- **Vendor Dashboards:** Dedicated dashboards for vendors to manage products, view sales analytics, and track orders.
-- **Admin Panel:** A comprehensive dashboard for platform administrators to oversee vendors, products, and commissions.
+* [✨ Features](#-features)
+* [🛠️ Tech Stack](#-tech-stack)
+* [🚀 Getting Started](#-getting-started)
+* [👥 Team](#-team)
+* [📜 License](#-license)
 
-## 🛠️ Tech Stack <a name="-tech-stack"></a>
+---
 
-- **Framework:** Next.js
-- **Styling:** Tailwind CSS
-- **UI Components:** Lucide React for icons
-- **State Management:** Redux Toolkit
+## ✨ Features
 
-## 🚀 Getting Started <a name="-getting-started"></a>
+* 🛍️ **E-Commerce Functionality:** Browse products, view details, and place orders
+* 🔐 **Authentication System:** Secure login & registration
+* 🛒 **Shopping Cart:** Add, update, and remove items
+* 💳 **Checkout System:** Order placement and summary
+* 👤 **User Dashboard:** Manage profile and orders
+* 🛠️ **Admin Panel:** Manage products, users, and orders
 
-First, install the dependencies. We recommend using `npm` for this project.
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js
+* **Backend:** Next.js API Routes (Node.js)
+* **Database:** Prisma ORM + SQL (PostgreSQL/MySQL)
+* **Styling:** Tailwind CSS
+* **State Management:** Context API / Redux Toolkit
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
 
-Then, run the development server:
+---
+
+### 2️⃣ Setup Environment Variables
+
+Create a `.env` file:
+
+```env
+DATABASE_URL=your_database_url
+NEXTAUTH_SECRET=your_secret_key
+```
+
+---
+
+### 3️⃣ Setup Database (Prisma)
+
+```bash
+npx prisma migrate dev
+npx prisma generate
+```
+
+---
+
+### 4️⃣ Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/(public)/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Outfit](https://vercel.com/font), a new font family for Vercel.
+👉 Open: http://localhost:3000
 
 ---
 
-## 🤝 Contributing <a name="-contributing"></a>
+## 👥 Team
 
-We welcome contributions! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for more details on how to get started.
+* **Khushal Narsaria** – Full Stack Development
+* **S Harshni** – Backend & Database
 
 ---
 
-## 📜 License <a name="-license"></a>
+## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE.md) file for details.
+This project is licensed under the MIT License.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Next.js Documentation](https://nextjs.org/docs)
+* [Prisma Documentation](https://www.prisma.io/docs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
+
+⭐ If you like this project, give it a star on GitHub!
+
