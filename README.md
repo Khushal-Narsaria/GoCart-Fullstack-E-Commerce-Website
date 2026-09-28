@@ -11,6 +11,11 @@
   </p>
 </div>
 
+<!-- live-links -->
+> 🔗 **Live demo:** [khushal-narsaria.github.io/GoCart-Fullstack-E-Commerce-Website](https://khushal-narsaria.github.io/GoCart-Fullstack-E-Commerce-Website/)  
+> 👤 **Portfolio:** [khushal-narsaria.github.io](https://khushal-narsaria.github.io/)  
+<!-- live-links -->
+
 ---
 
 ## 📖 Table of Contents
